@@ -1,1 +1,2 @@
 hi welcome updated
+for testing staged command
