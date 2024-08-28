@@ -15,7 +15,7 @@ resource "aws_instance" "web2" {
   instance_type = "t2.micro"
 
   # Reference the existing security group by its ID
-  vpc_security_group_ids = ["sg-0a751994d4c02e1ae"] # Replace with your existing security group ID
+  # vpc_security_group_ids = ["sg-0a751994d4c02e1ae"] # Replace with your existing security group ID
 
   user_data = <<-EOF
             #!/bin/bash
