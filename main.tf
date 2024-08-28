@@ -11,7 +11,7 @@ terraform {
 }
 
 resource "aws_instance" "web2" {
-  ami           = "ami-066784287e358dad1"
+  ami           = var.ami_ids
   instance_type = "t2.micro"
 
   # Reference the existing security group by its ID
